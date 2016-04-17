@@ -27,7 +27,7 @@ defmodule SolarTest do
 
   test "the deadliest flare", %{data: flares} do
     death = Solar.deadliest(flares) |> IO.inspect
-    assert death == 83600 #hmmm
+    assert death == 99000
   end
 
 end
