@@ -13,7 +13,7 @@ defmodule PhysicsTest do
 
   test "escape velocity of moon is correct" do
     ev = Physics.Rocketry.escape_velocity(:moon)
-    assert ev == 2.4 #what should this value be?
+    assert ev == 0.8#what should this value be?
   end
 
   test "escape velocity of planet X is correct" do

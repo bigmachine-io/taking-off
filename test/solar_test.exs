@@ -30,4 +30,20 @@ defmodule SolarTest do
     assert death == 99000
   end
 
+
+  test "total flare power using recursion", %{data: flares} do
+    Solar.total_flare_power(flares) |> IO.inspect 
+  end
+
+  test "total flare power using enums", %{data: flares} do
+    Solar.total_flare_power_enum(flares) |> IO.inspect  # Hey! Why is this answer different! Can you adjust this function for me?
+  end
+
+  test "a flare list with comprehensions", %{data: flares} do
+    Solar.flare_list(flares) |> IO.inspect
+  end
+
+  test "a flare list with enums", %{data: flares} do
+    Solar.flare_list_enums(flares) |> IO.inspect
+  end
 end
