@@ -24,7 +24,7 @@ defmodule Converter do
     round_to(val, 1)
   end
 
-  def to_km(val) when is_integer(val) or is_float(val) do
+  def to_km(val) when is_integer(val)do
     val / 1000
   end
 
