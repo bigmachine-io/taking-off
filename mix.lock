@@ -1,5 +1,7 @@
-%{"certifi": {:hex, :certifi, "0.4.0"},
+%{"amnesia": {:git, "https://github.com/meh/amnesia.git", "63f6aef1888b15669f80b5e06af32d151f23e4ff", [tag: :master]},
+  "certifi": {:hex, :certifi, "0.4.0"},
   "combine": {:hex, :combine, "0.7.0"},
+  "exquisite": {:hex, :exquisite, "0.1.6"},
   "gettext": {:hex, :gettext, "0.11.0"},
   "hackney": {:hex, :hackney, "1.6.0"},
   "idna": {:hex, :idna, "1.2.0"},
