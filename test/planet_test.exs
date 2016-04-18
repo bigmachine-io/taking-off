@@ -21,6 +21,16 @@ defmodule PlanetTest do
     assert venus.ev == 7.2
   end
 
+  test "escape velocity of earth is correct" do
+    ev = Planet.escape_velocity
+    assert ev == 11.2 
+  end
+
+  test "escape velocity of mars is correct" do
+    ev = Planet.escape_velocity(Planet.select[:mars])
+    assert ev == 5.0 #what should this value be?
+  end
+
   test "Enum at", %{planets: planets} do
     p = Enum.at(planets, 2)
     assert p.name == "Earth"
