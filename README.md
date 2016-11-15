@@ -1,20 +1,5 @@
-# Physics
+# Welcome to The Red:4 Repository
 
-**TODO: Add description**
+This is the source code for Big Machine's "Take Off With Elixir" book and video. Feel free to browse the code and leave feedback of any kind.
 
-## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed as:
-
-  1. Add physics to your list of dependencies in `mix.exs`:
-
-        def deps do
-          [{:physics, "~> 0.0.1"}]
-        end
-
-  2. Ensure physics is started before your application:
-
-        def application do
-          [applications: [:physics]]
-        end
-
+In November of 2016 we retired our forums as they were a bit difficult (and costly) to maintain. If you have questions or need some help, please feel free to leave an issue here. You can also [email me](mailto:rob@bigmachine.io) directly if you wish.
