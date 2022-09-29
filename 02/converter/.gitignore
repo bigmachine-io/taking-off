@@ -3,5 +3,3 @@
 /deps
 erl_crash.dump
 *.ez
-
-.DS_Store
